@@ -1,0 +1,31 @@
+.wim-main {
+    width: 200px;
+    overflow: hidden;
+    background-color: #dfe8f6;
+}
+.wim-search-ret {
+    position: absolute;
+    z-index: 20002;
+    font: normal 12px tahoma, arial, helvetica, sans-serif;
+    border-bottom:1px solid #98C0F4;
+    background: white;
+    overflow: hidden;
+	margin-left:1px;
+	left:0px;
+	_margin-top:23px;
+}
+.wim-header-main .h-status {
+    display: inline;
+    overflow: hidden;
+	vertical-align:middle;
+    font-weight: lighter;
+    height:18px;
+    width: 132px;
+	padding-top:2px;
+	font-size:12px;
+	border: 1px #A9BFD3;
+	background-color:#dfe8f6;
+}
+.wim-header-main .h-status-over {
+    background-color: #ffffcc;
+}

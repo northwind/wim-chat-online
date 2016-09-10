@@ -1,0 +1,249 @@
+@charset "utf-8";
+.wrapper h1{
+	font-size: 14px;
+	font-weight: bold;
+	color: #152d61;
+	line-height: 24px;
+	height: 24px;	
+}
+body{
+	width:600px;
+	background-color:#DFE5F3;
+}
+div.hr {
+  height: 3px;
+  margin-left:-30px;
+  background: url(images/fenge_line.gif) no-repeat;
+}
+div.hr hr {
+  display: none;
+}
+span.verify{
+	background: url(images/loading.gif) no-repeat center;
+}
+span.correct{
+	display:block;
+	background: url(images/correct.png) no-repeat;
+}
+span.wrong{
+	background: url(images/wrong.png) no-repeat center;
+}
+#step1 .content_text span{
+	position:relative;
+	top:5px;
+	padding-left:5px;
+	height:16px;
+	width:16px;
+  	display: inline-block;	
+}
+
+.wrapper {
+	height: 450px;
+	width: 100%;
+	_width: 99%; /* IE6 */
+	margin: 0 auto;
+	background-color: #dfe5f3;
+}
+.content {
+	padding: 13px 30px 0 30px;
+}
+.header {
+	background-image: url(images/header_bg.gif);
+	background-repeat: repeat-x;
+	width:100%;
+	height: 35px;
+	color: #636363;
+	padding-top: 5px;
+	_padding-right:5px; /*IE6 */
+}
+.step{
+	width: 87px;
+	_width : 15%; /*IE6 */
+	height: 29px;
+	line-height: 29px;
+	color: #411400;
+	margin-left: 10%;
+	padding-left:23px;
+	float: left;	
+}
+.step-active{
+	background-image: url(images/current_bg.gif);
+	background-repeat: no-repeat;	
+}
+.uniform{
+	height:384px;	
+	overflow:hidden;
+}
+#step1 .title{
+	padding-left: 24px;
+	background: url(images/reg_img.gif) no-repeat;
+}
+
+.checkArea{
+	padding-left:100px;
+}
+.checkArea a{
+	text-decoration : none;
+}
+.checkArea input{
+	margin-bottom: 2px;
+	margin-right:3px;
+	border:#dfe5f3;
+	background:none;
+}
+#agreeSpan{
+	cursor:pointer;
+}
+#step1 .btns{
+	height : 30px;
+	padding-left:100px;
+}
+.content_text {
+	line-height:30px;
+	width:350px;
+	margin: 20px auto;
+}
+.content_text ul{
+	list-style:none inside;
+}
+.content_text ul label{
+	display:inline-block;
+	width:100px;
+	text-align:right;
+}
+.content_text ul input{
+	height:24px;
+}
+.content_text ul b{
+	color:red;
+}
+.content_text ul img{
+	position:relative;
+	top : 8px;
+	margin-left:14px;
+}
+
+.agreement {
+	padding-left: 44px;
+	background: url(images/contract_img.gif) no-repeat;	
+}
+
+#step2 .text{
+	
+}
+#step2 input{
+	height:24px;
+}
+#step2 .text h1{
+	padding-left: 24px;
+	background: url(images/lock_img.gif) no-repeat;		
+}
+#step2 .text ul{
+	list-style-image : url(images/li_dot02.gif);
+	padding-left : 35px;
+	margin-top:4px;
+	line-height:28px;
+	margin-left:4px;
+	font-size: 1.1em;	
+}
+.content_icon a{
+	height: 72px;
+	width: 72px;
+	display: inline-block;
+	border:5px #DFE5F3 dashed;
+}
+.content_icon a.active{
+	border-color:#ffff80;
+}
+a.qqbtn{
+	background-image: url(images/qq_normal.gif);
+	background-repeat: no-repeat;
+}
+a.qqbtn:hover{
+	background-image: url(images/qq_hover.gif);
+}
+a.msnbtn{
+	background-image: url(images/msn_normal.gif);
+	background-repeat: no-repeat;
+}
+a.msnbtn:hover{
+	background-image: url(images/msn_hover.gif);
+}
+a.gtalkbtn{
+	background-image: url(images/gtalk_normal.gif);
+	background-repeat: no-repeat;
+}
+a.gtalkbtn:hover{
+	background-image: url(images/gtalk_hover.gif);
+}
+#next{
+	position:relative;
+	top : -40px;
+	float:right;
+}
+.content_input {
+	line-height: 30px;
+	width: 260px;
+	padding-top:20px;
+	margin: 0 auto;
+}
+#step2 .btns{
+	height : 40px;
+}
+
+#step3 h1{
+	padding-left: 24px;
+	background: url(images/check_img.gif) no-repeat;	
+	float: left;		
+}
+
+#step3 .anchor{
+	font-size:13px;
+	font-weight:bolder;
+	float:right;
+	text-decoration:none;
+}
+.success{
+	margin-left:60%;
+}
+
+.login {
+	margin: 130px auto 50px auto;
+	width: 318px;
+}
+a.btn_login{
+	background-image: url(images/btn_login_normal.gif);
+	background-repeat: no-repeat;
+	height: 66px;
+	width: 318px;
+	margin: 0 auto;
+	vertical-align:middle;
+	text-align:center;
+	text-decoration: none;
+	display:block;
+	padding-top:25px;
+}
+a.btn_login:hover{
+	background-image: url(images/btn_login_hover.gif);
+}
+a.btn_login span{
+	padding-left:56px;
+	padding-top: 15px;
+	padding-bottom: 31px;
+	font-weight:bolder;
+	font-size:1.2em;
+	background: url(images/login_icon.gif) no-repeat;
+}
+
+.footer {
+	background-image: url(images/footer_bg.gif);
+	text-align: center;
+	color: #ffffff;
+	font-size: 12px;
+	height: 26px;
+	width: 100%;
+	line-height: 26px;
+	position:absolute;
+	z-index:100;
+	bottom:0;
+}

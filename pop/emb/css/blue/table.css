@@ -1,0 +1,121 @@
+table.z-w-wrap{
+	border:none;
+	width:auto;
+	height:auto;
+	background:none;
+	margin: 0px;
+	padding:0px;
+	overflow:visible;
+    z-index: 65535;
+    position: absolute;		
+}
+table.z-w-wrap tr{
+	width:100%;
+}
+table.z-w-wrap tr td.z-w-left{
+	width:21px;
+}
+table.z-w-wrap tr td.z-w-mid{
+	overflow:hidden;
+}
+table.z-w-wrap tr td.z-w-right{
+	width:23px;
+}
+.z-w-header td{
+	height:34px;
+}
+.z-w-c {
+	width:200px;
+	height:400px;
+}
+.z-w-footer td{
+	height:15px;
+}	
+.z-w-refresh{
+	zoom:1;
+}
+.z-w-c iframe{
+	background-color:transparent;
+	display:inline-block;
+	overflow:hidden;
+	border:none;
+	padding:0;
+	margin:0;
+	height:100%;
+	width:100%;
+}
+/*images */
+.z-w-icon{
+    position: absolute;
+    display: block;
+	margin-left:-10px;
+	margin-top:-30px;
+    width: 40px;
+    height: 40px;
+ 	background: url('images/icon.png') top left no-repeat;	
+}
+.z-w-nw{
+    background: url('images/nw.png') top left no-repeat;
+}
+.z-w-ne {
+    background: url('images/ne.png') top right no-repeat;
+}
+.z-w-n {
+    cursor: move;
+    background: url('images/n.png') top center repeat-x scroll;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;	
+    -moz-user-select: none;
+    -khtml-user-select: none
+}
+.z-w-w {
+    background: url('images/o.png') top left repeat-y;
+}
+.z-w-e {
+    background: url('images/e.png') top right repeat-y;
+}
+.z-w-c {
+    background: url('images/c.png');
+	width:200px;
+	height:400px;
+}
+.z-w-sw {
+    background: url('images/sw.png') bottom left no-repeat; 
+}
+.z-w-se {
+    background: url('images/se.png') bottom right no-repeat;
+}
+.z-w-s {
+    background: url('images/s.png') bottom repeat-x;
+}
+
+/* button */
+.z-w-bar {
+	display:inline-block;
+	float:right;
+}
+.z-w-bar kbd{
+    display: inline-block;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+.z-w-bar kbd:hover{
+	outline : 1px dotted #ffff00;
+}
+.z-w-bar kbd.z-w-mini {
+    background: url('images/close.gif') no-repeat;
+}
+.z-w-bar kbd.z-w-fix{
+    background: url('images/fix.gif') no-repeat;	
+}
+.z-w-bar kbd.z-w-unfix{
+    background: url('images/unfix.gif') no-repeat;	
+}
+/* title */
+.z-w-title{
+	text-decoration:none;
+	font-size:15px;
+	padding-left:15px;
+}

@@ -1,0 +1,88 @@
+@charset "utf-8";
+body{
+	font-size: 13px;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	background-color: #e2e8f4;
+}
+
+.inputArea{
+	margin-bottom : 6px;
+	float:right;
+}
+label {
+	padding-left: 10px;
+}
+.inputArea input{
+	margin : 3px;
+	width : 180px;
+}
+.check-area{
+	margin-left:70px;
+}
+
+#agreeSpan{
+	cursor:pointer;
+}
+#agree{
+	width:20px;
+	margin-bottom: 2px;
+	outline:none;
+	border: thin #e2e8f4;
+}
+#desc{
+	font-size:12px;
+	text-decoration:none;
+}
+.wrapper {
+	height: 100%;
+	width: 99.9%;
+	margin: 0 auto;
+	
+}
+.header {
+	height: 52px;
+	background-color:white;
+}
+.header img {
+	margin-top: 7px;
+	margin-left: 11px;
+}
+.header img.QQ {
+	background: url(images/bind_img_qq.gif) no-repeat;	
+}
+.header img.MSN {
+	background: url(images/bind_img_msn.gif) no-repeat;	
+}
+.header img.GTalk {
+	background: url(images/bind_img_gtalk.gif) no-repeat;	
+}
+.content {
+	background-color: #e2e8f4;
+	height: 200px;
+	width: 99.9%;
+	background-image: url(images/content_bg.gif);
+	background-repeat: no-repeat;
+	background-position: 21px 29px;
+	padding-top: 40px;
+}
+.content_left {
+	float:right;
+}
+.content_left_btn {
+	float:right;
+	padding-right:20px;
+}
+.footer {
+	background-image: url(images/footer_bg.gif);
+	text-align: center;
+	color: #ffffff;
+	font-size: 12px;
+	height: 26px;
+	width: 100%;
+	line-height: 26px;
+	position:absolute;
+	z-index:100;
+	bottom:0;
+}

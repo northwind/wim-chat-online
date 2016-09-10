@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>FLASH小游戏</title>
+        <style>
+        	html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td{margin:0;padding:0;}
+			img,body,html{border:0;}
+			body{background-color: #dfe8f6;}
+			
+        	body{
+        		font-family:tahoma,arial,helvetica;
+				font-size:11px;
+				font-size-adjust:none;
+				font-stretch:normal;
+				font-style:normal;
+				font-variant:normal;
+        	}
+        </style>
+        <script type="text/javascript" charset="utf-8" language="JavaScript">
+        	var flashUrl = "20090430.swf";
+			var width = "598", height = "350", flashId = "flashMovie";
+			window.onerror=function (){return true;};
+			document.oncontextmenu = function( e ){
+				if ( e ){
+					e.preventDefault();
+				}else{
+					window.event.returnValue = false;
+				}
+				return false;
+			}
+			
+            function play(){
+            	document.getElementById("descFlash").style.display = "none";
+				try {
+					document.getElementById("playFlash").innerHTML = 
+						 '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0 "' +
+						 ' width="' + width + '" height="' + height + '" id="' + flashId + '" name="' + flashId + '">' +
+						 '<param name="movie" value="' + flashUrl + '" />' +
+						 '<param name="quality" value="high" />' +
+						 '<param name="menu" value="false" />' + 
+						 '<embed src="' + flashUrl + '" width="' + width + '" height="' + height + '" id="' + flashId + '" name="' + flashId + '"' + 
+						 ' quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" menu="false"></embed>' +
+						 '</object>';	
+				} catch (e) {}
+				document.getElementById("btns").style.display = "block";	 				 
+            }
+			
+			function stop(){
+				document.getElementById("playFlash").innerHTML = "";
+				document.getElementById("btns").style.display = "none";
+				document.getElementById("descFlash").style.display = "block";
+			}
+        </script>
+    </head>
+    <body>
+        <div id="descFlash">
+            <p align="left">
+                <font color="#ff6600">
+                    【<strong>脑力拆字-小勇的大冒险</strong>】
+                </font>
+            </p>
+			<br/>
+            <p align="center">
+                <a href="javascript:play()"><img title="脑力拆字-小勇的大冒险" alt="脑力拆字-小勇的大冒险" src="img/20090430.jpg" border="0"></a>
+                <br>
+                点击上图进入此游戏
+            </p>
+			<br/>
+			<br/>
+            <p align="left">
+                　　 <strong>游戏说明</strong>：变动“回”字中的2个小人，使其变成另外的汉字。你能获得几颗智慧星呢？
+            </p>
+        </div>
+        <div id="playFlash"></div>
+		<center id="btns" style="display:none;clear:both;">
+			<a href="javascript:stop()">返回</a>
+		</center>
+    </body>
+</html>

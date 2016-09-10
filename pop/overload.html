@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache,   must-revalidate">
+    <meta http-equiv="expires" content="0">		
+		<title>宿主页面</title>
+		<style>
+			.wim-iframe{
+				width : 800px;
+				height: 550px;
+				overflow:hidden;
+			}
+		</style>
+		<script language="JavaScript">
+			function msg( msg ){
+				alert( msg );
+			}
+		</script>
+	</head>
+	<body>
+		<center>
+			<!-- IFRAME的高度大于450 当用户点击FOOTER上的按钮弹出菜单时在IE下会出现滚动条 -->
+			<iframe frameborder=0 class="wim-iframe" scrolling="no" src="http://ezchat.z.com:7000/ezchat/puzzle.html?theme=gray"></iframe>
+		</center>
+	</body>
+</html>

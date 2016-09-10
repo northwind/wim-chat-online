@@ -1,0 +1,135 @@
+table.z-w-wrap, .z-w-wrap tr, .z-w-wrap td{
+	border:none;
+	width:auto;
+	height:auto;
+	background:none;
+	margin: 0px;
+	padding:0px;
+	right:auto;
+	bottom:auto;
+	float:none;
+	clear:none;
+	cursor:auto;
+	color:#000000;
+}
+
+table.z-w-wrap{
+	overflow:visible;
+    z-index: 2147483647;
+    position: absolute;
+	display:table;
+}
+table.z-w-wrap tr{
+	width:100%;
+}
+table.z-w-wrap tr td.z-w-left{
+	width:10px;
+}
+table.z-w-wrap tr td.z-w-mid{
+	overflow:hidden;
+}
+table.z-w-wrap tr td.z-w-right{
+	width:13px;
+}
+.z-w-wrap .z-w-header td{
+	height:34px;
+}
+.z-w-wrap .z-w-c {
+	width:200px;
+	height:26px;
+}
+.z-w-wrap .z-w-footer td{
+	height:15px;
+	cursor:s-resize;
+}	
+.z-w-wrap .z-w-refresh{
+	zoom:1;
+}
+.z-w-wrap .z-w-c iframe{
+	background-color:transparent;
+	display:inline-block;
+	overflow:hidden;
+	border:none;
+	padding:0;
+	margin:0;
+	height:100%;
+	width:100%;
+}
+/*images */
+.z-w-wrap .z-w-icon{
+    position: absolute;
+    display: block;
+	margin-left:-10px;
+	margin-top:-30px;
+	* margin-top:-20px;
+    width: 40px;
+    height: 40px;
+ 	background: url('images/png.png') 0 0 no-repeat;	
+}
+.z-w-wrap .z-w-nw{
+    background: url('images/png.png') 0 -142px no-repeat;
+}
+.z-w-wrap .z-w-ne {
+    background: url('images/png.png') -10px -96px no-repeat;
+}
+.z-w-wrap .z-w-n {
+    cursor: move;
+    background: url('images/png.png') 0 -50px repeat-x scroll;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;	
+    -moz-user-select: none;
+    -khtml-user-select: none
+}
+.z-w-wrap .z-w-sw {
+    background: url('images/png.png') 0 -285px no-repeat; 
+}
+.z-w-wrap .z-w-se {
+    background: url('images/png.png') -10px -244px no-repeat;
+}
+.z-w-wrap .z-w-s {
+    background: url('images/s.png') bottom repeat-x;
+}
+.z-w-wrap .z-w-w {
+    background: url('images/o.png') top left repeat-y;
+}
+.z-w-wrap .z-w-e {
+    background: url('images/e.png') top right repeat-y;
+}
+.z-w-wrap .z-w-c {
+    background: url('images/c.png');
+}
+.z-w-wrap .z-w-trans{
+	background: transparent;
+}
+
+/* button */
+samp.z-w-bar {
+	display:inline-block;
+	float:right;
+}
+samp.z-w-bar kbd{
+    display: inline-block;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+.z-w-bar kbd:hover{
+	outline : 1px dotted #ffff00;
+}
+.z-w-bar kbd.z-w-mini {
+    background: url('images/tool.gif') 0 0 no-repeat;
+}
+.z-w-bar kbd.z-w-fix{
+    background: url('images/tool.gif') 0 -25px no-repeat;
+	display:none;	
+}
+.z-w-bar kbd.z-w-unfix{
+    background: url('images/tool.gif') 0 -50px no-repeat;	
+}
+/* title */
+strike.z-w-title{
+	text-decoration:none;
+	font-size:15px;
+	padding-left:15px;
+}

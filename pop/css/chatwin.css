@@ -1,0 +1,331 @@
+body
+{
+	height : 450px;
+	overflow: hidden;
+}
+textarea, img, a, select, button, em, .notrail, input{
+    outline:none;
+}	
+.info .title, .info .head, h1, label, img, .unselect
+{
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   user-select: none;
+   cursor: default;
+}
+	
+#WIM_Chat_Header
+{
+	background-position: 0px 0px;
+	background-image: url(default/images/chatheader.jpg);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	width: 600px;
+	height: 53px;
+}
+#WIM_Chat_CT{
+	width: 600px;
+	height:450px;
+}
+.ct-table{
+	height:100%;
+	margin: 0 auto 0 auto;
+}
+.ct-table td{
+	vertical-align:top;
+}
+#WIM_Chat_CT .x-tab-panel-body{
+	border:none;
+}
+.wim-main{
+	border : 0px !important;
+}
+/* tab icons */
+.WIM_Tab_Icon_Buddy 
+{
+	background-image: url(default/images/sendingMsg.gif);
+	}
+.WIM_Tab_Icon_Qun 
+{
+	background-image: url(default/images/qun.gif);
+}
+.icon_lp{
+	background-image: url(default/images/lookpref.gif);
+}
+.icon_qun_mng{
+	background-image: url(default/images/qun_mng.gif);
+}
+.WIM_Tab_Icon_Edit 
+{
+	background-image: url(default/images/tab_icon_edit.gif);
+}		
+.WIM_Tab_Icon_Game 
+{
+	background-image: url(default/images/game.png);
+}	
+/* chat panel */
+.x-tab-panel .x-toolbar{
+	height:22px;
+}
+.x-tab-panel .x-toolbar td{
+	vertical-align:middle;
+}
+.wim-cpanel-message
+{
+	width: 100%;
+	overflow:auto;
+	height: 58%;
+	font: 12px tahoma,arial,helvetica;
+	background-color:white;
+	white-space:normal;
+	word-break:break-all;	
+	word-wrap:break-word;
+}
+/*PATCH for safari */
+.ext-safari .wim-cpanel-message{ height: 59%;}
+
+.wim-cpanel-time
+{
+	font-size: smaller;
+	margin-left: 10px;
+}
+.wim-cpanel-content
+{
+	margin-left: 15px;
+	font-size:13px;
+}
+.cp-left{
+	width:70%;
+	height:100%;
+}
+.last-bar{
+	border-bottom-width:0px;
+	padding-bottom:0;
+}
+.wim-cpanel-body tr td textarea.wim-cpanel-text{
+	height : 73px;
+	width  : 100%;
+	overflow: auto;
+	overflow-x : hidden;
+	word-wrap:break-word;
+	word-break:break-all;
+	border:none;
+	margin : 0px;
+	padding:0px;
+}
+.cp-middle a{
+	display:block;
+	position:relative;
+	top:48%;
+	width:10px;
+	text-decoration: none;
+}
+.cp-middle a.right{
+	background: url(default/images/m_right.gif) center no-repeat;
+}
+.cp-middle a.left{
+	background: url(default/images/m_left.gif) center no-repeat;
+}
+.cp-middle button{
+	background-color: transparent;
+	width : 7px;
+	border : 0px;
+	cursor:pointer;
+}
+.cp-right{
+	width:28%;background-color:white;height:100%;
+}
+
+.wim-select {
+    background-image: url(default/images/save_small.png);
+}
+
+/* color panel */
+.wim-c-p-hl{
+	border: 1px dashed !important;
+	padding : 0px !important;
+}
+.wim-c-p td{
+	width : 20px;
+}
+
+/* profile panel */
+.pf-m {
+	height:335px;
+	text-align:left;
+	font-family: "宋体" tahoma,arial,helvetica;
+	font-size: 12px;
+	padding: 3px 8px 4px 8px;
+}
+.pf-edit{
+	
+}
+.pf-m tr{
+	height : 18px;
+}
+.pf-edit tr{
+	height : 23px;
+}
+.pf-edit select{
+	padding:0;
+	margin:0;
+	height:21px;
+}
+.pf-m textarea{
+	width: 88%;
+	outline:none;
+	overflow: auto;
+	word-wrap:break-word;
+	word-break:break-all;	
+}
+.pf-m h1 {
+	background-image: url(default/images/title_bar.gif);
+	background-repeat: no-repeat;
+	font-weight: bold;
+	color: #fff;
+	height: 19px;
+	text-align: left;
+	text-indent: 8px;
+	padding-top: 2px;
+}
+.pf-m .pic {
+	background-image: url(default/images/panda.gif) no-repeat;
+	height: 54px;
+	width: 54px;
+	position: absolute;
+	top : 92px;
+}
+.pf-edit .pic{
+	background: url(default/images/panda.gif) no-repeat;
+	position:fixed; /* TO DO change */
+}
+.pf-m table
+{
+    width : 100%;
+    padding-left:5px;
+    }
+.pf-m td
+{
+    width:33%;
+    overflow : hidden;
+    text-overflow : ellipsis;    
+    white-space:nowrap;  
+}
+.pf-m .top{
+	VERTICAL-ALIGN: top;
+}
+.pf-m input{
+	width : 119px;
+}
+
+/* buddy profile */
+.info .title {
+	background-image: url(default/images/title_bg.gif);
+	background-repeat: no-repeat;
+	color: #454D58;
+	height: 24px;
+	text-indent:1em;
+	line-height:26px;
+}
+
+.info .head {
+	background: url(default/images/head_img_bg.gif) #E4E8F3 repeat-x;
+	height: 157px;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	color: #131E34;
+	overflow:hidden;
+}
+.info .head img{
+	background: url(default/images/head_img.gif) repeat-x;
+	width : 124px;
+	height : 119px;
+	display : block;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+.info div.case
+{
+    overflow : hidden;
+    text-overflow : ellipsis;    
+    white-space:nowrap;
+    padding-left: 2px;
+	height:34px;
+}
+
+.anchor
+{
+    background: url(default/images/arrow.png) no-repeat right 71%;
+    margin: 3px;
+    font-size: 11px;
+    font-family:tahoma,arial,verdana,sans-serif;
+    line-height:15px;
+    color: #1f57ac;
+    padding-left: 2px;
+    padding-right: 9px;
+}
+
+/* ad */
+.ad{
+	overflow: hidden; 
+	background-color: transparent;
+	display: inline; 
+	margin-left:10px;
+}
+.adText{
+	margin: 20px 0 0 10px;
+}
+.adImage{
+	display:inline-block;
+	height:50px;
+	width:200px;
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+.adFrame{
+	width: 200px; height: 50px;
+}
+
+/* manager qun */
+.q-mgr {
+	padding-left : 6px;
+	padding-right : 6px;
+}
+.q-mgr table{
+	width : 100%;
+	height : 100%;
+	margin : 0px;
+	border : 0px;
+}
+.q-mgr .title{
+	height : 30px;
+}
+.q-mgr .btns button{
+	width : 90px;
+	display:block;
+	font-size:13px;
+	margin-bottom : 40px;
+	margin-top : 40px;
+}
+
+/* qun chat panel */
+.q-right{
+}
+.q-right textarea.x-form-field{
+	border:none;
+	padding:0;
+    width: 100%;
+	height:80px;
+}
+.note-btn{
+	position:absolute;
+	opacity : 0.6;
+}
+.q-l-8 {
+    background: center url(default/images/manager.png) !important;
+}
+.q-l-16 {
+    background: center url(default/images/qun.gif) !important;
+}

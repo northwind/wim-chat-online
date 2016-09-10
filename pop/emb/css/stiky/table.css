@@ -1,0 +1,84 @@
+table.z-w-wrap{
+	border:none;
+	width:auto;
+	height:auto;
+	background:none;
+	margin: 0px;
+	padding:0px;
+	overflow:visible;
+    z-index: 20002;
+    position: absolute;		
+}
+table.z-w-wrap tr{
+	width:100%;
+}
+table.z-w-wrap tr td.z-w-left{
+	width:21px;
+}
+table.z-w-wrap tr td.z-w-mid{
+	width:200px;
+}
+table.z-w-wrap tr td.z-w-right{
+	width:23px;
+}
+.z-w-header td{
+	height:30px;
+}
+.z-w-body td{
+	height:400px;
+}
+.z-w-footer td{
+	height:15px;
+}	
+.z-w-refresh{
+	zoom:1;
+}
+
+.z-w-icon{
+    position: absolute;
+    display: block;
+	margin-left:-10px;
+	margin-top:-30px;
+    width: 40px;
+    height: 40px;
+ 	background: url('images/icon.png') top left no-repeat;	
+}
+.z-w-default .nw{
+    background: url('images/nw.png') top left no-repeat;
+}
+.z-w-default .ne {
+    background: url('images/ne.png') top right no-repeat;
+}
+.z-w-default .n {
+    cursor: move;
+    background: url('images/n.png') top center repeat-x scroll;
+	line-height:34px;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;	
+    -moz-user-select: none;
+    -khtml-user-select: none
+}
+
+.z-w-default .w {
+    background: url('images/o.png') top left repeat-y;
+}
+
+.z-w-default .e {
+    background: url('images/e.png') top right repeat-y;
+}
+
+.z-w-default .c {
+    background: url('images/c.png');
+}
+.z-w-default .sw {
+    background: url('images/sw.png') bottom left no-repeat; 
+}
+
+.z-w-default .se {
+    background: url('images/se.png') bottom right no-repeat;
+}
+
+.z-w-default .s {
+    background: url('images/s.png') bottom repeat-x;
+}

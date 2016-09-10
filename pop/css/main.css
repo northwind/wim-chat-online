@@ -1,0 +1,328 @@
+body{
+	width:100%;
+	height:100%;
+	opacity: 1;
+	overflow:hidden;
+}
+textarea, .scroll{
+	overflow-y : auto;
+	overflow-x : hidden;
+}
+textarea, img, a, select, button, em, .notrail, input{
+    outline:none;
+}
+.newmsg{
+	position:absolute;
+	z-index:20003;
+	top:0px;
+	left:0px;
+	width : 60px;
+	opacity:0.99;
+	height: 20px;
+	background : url(default/images/newMsg.gif) top left no-repeat;
+}
+.refresh{
+	zoom:1;
+}
+/*隐藏TREE NODE内文字过长 */
+.x-tree-node span{
+    overflow : hidden;
+    text-overflow : ellipsis;    
+    white-space:nowrap;	
+}
+.x-panel-body{
+	overflow : hidden !important; /* 隐藏横向滚动条 */
+	width : 100% !important;
+}
+
+.wim-main {
+    width: 200px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+/* buddy panel */
+.main-body{
+
+}
+.wim-buddy-node .x-tree-node-indent{
+	display:none;
+}
+.wim-buddy-node .nopre{
+	width:5px;
+}
+.tab-p{
+	height : 100%;
+	width  : 100%;
+	overflow:auto; /* 当好友列表过多时增加滚动条 */
+	overflow-x : hidden;
+}
+.buddyMSNIconOnline {
+    background-image: url(default/images/msn_online.gif);
+}
+.buddyMSNIconOffline {
+    background-image: url(default/images/msn_offline.gif);
+}
+.wim-tree-group {
+    height: 0px;
+    width: 5px !important;
+}
+.wim-tool-group-ct {
+    display: inherit;
+}
+.wim-tool-group {
+    vertical-align: middle;
+    text-align: right;
+}
+
+.wim-tool-group-icon {
+    background: url(default/images/ui-menu.png) no-repeat 0 0 !important;
+}
+/*  toolbar */
+.wim-tool-QQOnline {
+    background: url(default/images/qq_online.png) no-repeat 0 0 !important;
+}
+
+.wim-tool-QQOffline {
+    background: url(default/images/qq_offline.png) no-repeat 0 0 !important;
+}
+
+.wim-tool-MSNOffline {
+    background: url(default/images/msn_offline.gif) no-repeat 0 0 !important;
+}
+
+.wim-tool-MSNOnline {
+    background: url(default/images/msn_online.gif) no-repeat 0 0 !important;
+}
+
+.wim-tool-EZOnline {
+    background: url(default/images/ez_online.gif) no-repeat 0 0 !important;
+}
+
+.wim-tool-EZOffline {
+    background: url(default/images/ez_offline.gif) no-repeat 0 0 !important;
+}
+.tool-gtalkOn{
+	background:transparent url(default/images/gtalk_on.gif) no-repeat scroll 0 0 !important;
+}
+.tool-gtalkOff{
+	background:transparent url(default/images/gtalk_off.gif) no-repeat scroll 0 0 !important;	
+}
+.tool-loading{
+	background:transparent url(default/images/loading.gif) no-repeat scroll 0 0 !important;	
+}
+/* reply */
+.wim-reply-select {
+    background-image: url(default/images/save_small.png);
+	_background:none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="css/default/images/save_small.png"); 	
+}
+/* search box */
+.wim-search-box {
+    width: 192px;
+}
+
+.wim-search-ret {
+    position: absolute;
+    z-index: 20002;
+    font: normal 12px tahoma, arial, helvetica, sans-serif;
+    border-bottom:1px solid #98C0F4;
+    background: white;
+    overflow: hidden;
+	margin-left:1px;
+	left:0px;
+	_margin-top:23px;
+}
+
+.wim-search-ret li {
+    word-break: break-all;
+    word-wrap: break-word;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 23px;
+    padding: 1px;
+}
+
+.wim-search-ret li img {
+    height: 16px;
+    width: 16px;
+	margin: 5px 3px 0 3px;
+}
+.sh-list-hd{color:#15428b;background-image:url(default/images/list-light-bg.gif);}
+/* header */
+.wim-header-main {
+    margin-bottom: 0px;
+}
+
+.wim-header-img {
+    float: left;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    margin-right: 8px;
+	background:url(default/images/panda.gif) no-repeat;
+}
+.h-pop{
+	display:inline-block;
+	width:26px;
+	height:21px;
+	background: url(default/images/popup.png) bottom left no-repeat;
+}
+
+.wim-header-main .h-status-over {
+    background-color: #ffffcc;
+}
+.wim-header-main .whiteCls{
+	background-color: #fff;
+}
+
+.wim-noborder {
+    border: none;
+    background-image: none;
+    background-color: transparent;
+    position: relative;
+}
+
+.wim-header-top {
+    position: static;
+    border: 0px;
+    padding: 0px;
+    background: transparent none !important;
+}
+
+.wim-header-tool {
+    clear: both;
+    padding: 0px;
+    background: transparent none !important;
+}
+
+.msg-plane{
+	width : 100%;
+	overflow:hidden;
+}
+.msg-plane a{
+	text-decoration:none;
+	color:blue;
+}
+/* --- status ---- */
+.wim-status-online {
+    background: url(default/images/online.gif) no-repeat 0 0 !important;
+}
+
+.wim-status-busy {
+    background: url(default/images/busy.gif) no-repeat 0 0 !important;
+}
+
+.wim-status-notbother {
+    background: url(default/images/nobother.gif) no-repeat 0 0 !important;
+}
+
+.wim-status-away {
+    background: url(default/images/leave.gif) no-repeat 0 0 !important;
+}
+
+.wim-status-offline {
+    background: url(default/images/exit.gif) no-repeat 0 0 !important;
+}
+/* qun list */
+.qun{}
+.wim-qun-icon {
+    background: url(default/images/qun.gif) no-repeat 0 0 !important;
+}
+
+.wim-qun-node {
+    cursor: default;
+}
+
+.wim-qun-cursor {
+    cursor: default !important;
+}
+/* mask style */
+.m-list .ext-el-mask-msg{
+	width:100%;
+}
+.m-list .x-masked div label, .x-tab-panel .ext-el-mask-msg div label {
+    display: block;
+    float: left;
+	clear:left;
+	padding:3px 3px 3px 0;
+	position:relative;
+	margin:1px auto;
+    text-align: right;
+    width: 60px;
+}
+.m-list .ext-el-mask-msg h1{
+	padding-left : 8px;
+	zoom:1;
+}
+.m-list .ext-el-mask-msg div{
+	padding:4px 0 0;
+}
+.m-list .x-masked textarea {
+    position: relative;
+    width: 98%;
+    height: 60px !important;
+	padding-left:1px;
+	padding-right:0;	
+	margin-top:4px;
+}
+.m-list .x-masked center{
+	margin : 5px 0;
+}
+.m-list .x-masked button {
+    font-size:12px;
+	width : 52px;
+	margin-right:10px;
+}
+.m-list .x-masked select{
+    width: 128px;
+	height: 22px;
+	margin-top : 2px;
+	margin-bottom : 2px;
+	font-size:14px;
+}
+.m-list .x-masked select option{
+	font-size:14px;
+}
+.m-list .x-masked input {
+    width: 120px;
+}
+.m-list .x-masked input.single-input{
+	width:90%;
+	margin-left : 3%;
+}
+/* tree */
+.wim-ftbar {
+    opacity: 0.7;
+    position: absolute;
+    top: -100px; 
+	left: -100px;
+	background:none transparent;
+	border:0;
+	width: 30px;
+	z-index:10000;
+}
+
+/* sound */
+.wim-noicon{
+    background: transparent none repeat scroll 0 0 !important;
+}
+.wim-sound-normal{
+    background: url(default/images/sound.gif) no-repeat 0 0 !important;
+} 
+.wim-sound-wink{
+	background: url(default/images/sound_wink.gif) no-repeat 0 0 !important;
+}
+.wim-sound-auto{
+    background: url(default/images/autostart.png) no-repeat 0 0 !important;
+}
+
+.unselect{
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   user-select: none;
+   cursor: default; 	
+}

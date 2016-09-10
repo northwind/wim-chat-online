@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Bind</title>
+		<link rel="stylesheet" type="text/css" href="css/all.css" />
+        <script src="lib/v1.0/jquery.js" type="text/javascript">
+        </script>
+        <script src="js/v1.0/wim_gettheme.js" direct="bind/bind.css" type="text/javascript">
+        </script>			
+        <script src="lib/v1.0/plugins/jquery.blockUI.js" type="text/javascript">
+        </script>
+		
+        <script src="js/v1.0/win/wim_BindWin.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <img src="css/default/images/s.gif" width="200" height="40" />
+            </div>
+            <div class="content">
+                <div class="content_left">
+                    <div class="inputArea">
+                        <label>
+                            UserName：
+                        </label>
+                        <input type="text" id="name" tabindex=1/>
+                        <br/>
+                        <label>
+                            Password：
+                        </label>
+                        <input type="password" id="psw" tabindex=2/>
+                        <br/>
+                        <div class="check-area">
+                            <input type="checkbox" id="agree" tabindex=3/>
+                            <label id="agreeSpan">
+                                Accept
+                            </label>
+                            　<a href="#" id="desc" class="anchor" tabindex=4>Description</a>
+                        </div>
+                    </div>
+                    <div class="clear">
+                    </div>
+                    <div class="content_left_btn">
+                        <a href="#" disabled="true" id="ok" tabindex=10 class="abtn disabled">Ok</a>
+						<a href="#" id="cansel" class="abtn" tabindex=20>Cansel</a>						
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer unselect">
+            Make sure
+        </div>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* login layer */
+#lg {
+	position:absolute;
+	margin:0 auto;
+	z-index:99;
+	font-size: 12px;
+	min-height : 100%;
+	height:100%;
+	width:200px;
+}
+#lg table{
+	width:100%;
+	height:100%;
+	background: url(images/content_bg.gif) center center repeat-y;
+}
+#lg table td{
+	width:100%;
+}
+#lg .header{
+	height:112px;
+	background:url(images/header_img.gif) no-repeat;
+}
+#lg .waiting{
+	position:absolute;
+	width:80px;
+	height: 40px;
+	z-index:200;
+	top:150px;
+	left:70px;
+	background: url(images/large-loading.gif) no-repeat center;
+}
+
+#lg .btns{
+	height : 50px;
+}
+
+#lg a.abtn{
+	background-image: url(images/btn_normal.gif);
+	height: 26px;
+	width: 74px;
+	display : inline-block;
+	line-height: 22px;
+	text-align: center;
+	text-decoration: none;
+	color: #67747c;
+	font-size: 12px;
+	margin:0;
+	background-repeat: no-repeat;
+}
+#lg a.abtn:hover{
+	background-image: url(images/btn_hover.gif);
+	color: #628398;
+}
+#lg a.active, #lg a.abtn:active{
+	background-image: url(images/btn_click.gif) ;
+	cursor : pointer;
+	color:#fff;
+}
+
+#lg ul{
+	list-style: url(images/star.gif) inside;
+	font-size: 13px;	
+	_font-size: 12px;	
+	line-height: 22px;
+	padding-left: 8px;
+	color: #e5edfb;
+	min-height : 88px;
+	overflow:hidden;
+	text-align:left;		
+}
+
+#lg .footer {
+	height:151px;
+	background:url(images/footer_img.gif) bottom no-repeat;
+}
+#lg .footer a{
+	margin:0 0 0 15px;
+	color: #d5e4f9;
+	text-decoration: none;
+}
+#lg .footer a:hover {
+	color: #415885;
+}
+#lg .footer a:active {
+	color: #d5e4f9;
+}
+
+

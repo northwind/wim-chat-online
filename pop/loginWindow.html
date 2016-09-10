@@ -1,0 +1,83 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="css/all.css" />
+        <script src="lib/v1.0/jquery.js" type="text/javascript">
+        </script>
+        <script src="js/v1.0/wim_gettheme.js" direct="login/login.css" type="text/javascript">
+        </script>		
+        <script src="lib/v1.0/plugins/jquery.blockUI.js" type="text/javascript">
+        </script>		
+        <script src="js/v1.0/util/CookieProvider.js" type="text/javascript">
+        </script>		
+        <script src="js/v1.0/win/wim_LoginWin.js" charset="utf-8" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <div class="header_left">
+                    <img src="css/default/login/images/pattern_left.gif" width="9" height="80" />
+                </div>
+                <div class="header_mid">
+                    <span>请确认：</span>
+                    <br/>
+                    1.我能看到地址栏
+                    <br/>
+                    2.确认地址栏中的域名是 
+                    <b>
+                        zhoma.com
+                    </b>
+                    <a href="#" id="identify" >如何辨认域名</a>？
+                </div>
+                <div class="header_right">
+                    <img src="css/default/login/images/sign.gif" width="22" height="23" />
+                </div>
+            </div>
+            <div class="content clear">
+                <div class="content_left">
+                    <span>用户名：</span>
+                    <input type="text" id="name" autocomplete="off" />
+                    <br/>
+                    <span>密　码：</span>
+                    <input type="password" id="psw" autocomplete="off" />
+                    <br/>
+					<a class="abtn" id="cansel" href="#">取　消</a>
+					<a class="abtn" id="login" href="#">确　定</a>
+	                <div class="clear tips">
+	                    <a id="forget" class="anchor" target="_blank" href="http://www.zhoma.com/forget_psw.html">忘记密码</a>
+	                </div>					
+                </div>
+                <div class="content_right">
+                    <span class="bold">友情提示</span>
+					<ul>
+						<li>非zhoma.com域名均有盗号风险，请勿登录！</li>
+						<li>只有在<span class="highlight">弹出窗口</span>下输入卓马密码才是安全的！</li>
+						<li>如遇虚假网站，请及时<a class="anchor" href="#" class="anchor">与我们联系</a></li>
+					</ul>
+                </div>
+            </div>
+		<div id="domain">
+			<div class="popup_top"><img src="css/default/login/images/popup_top.gif"></div>
+			<div class="popup_mid">
+			<label class="popup_title_1">正确域名</label><br>
+            <img src="css/default/login/images/right_icon.gif">&nbsp;<label class="domain">http://<label class="underline">www.zhoma.com</label>/abc</label><br>
+            以zhoma.com结尾的才是真的zhoma.com<br>
+            <label class="popup_title_2">经典冒牌货：</label><br>
+            <img src="css/default/login/images/wrong_icon.gif">&nbsp;<label class="domain">http://<label class="underline">www.zhoma.com.<label class="highlight">xxx.com</label></label>/……</label><br>
+            以xxx.com结尾,以zhoma.com为前缀欺骗用户<br>
+            <img src="css/default/login/images/wrong_icon.gif">&nbsp;<label class="domain">http://<label class="underline">www.<label class="highlight">xxx.com</label></label>/zhoma.com/……</label><br>
+            非zhoma.com结尾，域名为xxx.com
+		    <div class="btn_close"><a class="abtn" id="close" href="#">关　闭</a></div>
+           <div class="clear"></div>
+          </div>
+		   <div class="popup_bottom"><img src="css/default/login/images/popup_bottom.gif"></div>
+		</div>			
+        </div>
+            <div class="footer">
+                卓马弹出框，确保您帐号的安全，请放心使用！
+            </div>	
+    </body>
+</html>
